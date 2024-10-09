@@ -1,0 +1,61 @@
+import random
+
+series = [
+    "Breaking Bad",
+    "Game of Thrones",
+    "Chernobyl",
+    "The Sopranos",
+    "Band of Brothers",
+    "The Wire",
+    "Better Call Saul",
+    "Stranger Things",
+    "Sherlock",
+    "Peaky Blinders",
+    "The Twilight Zone",
+    "Fleabag",
+    "Fargo",
+    "House",
+    "Friends",
+    "Dark",
+    "The Office",
+    "Succession",
+    "Battlestar Galactica",
+    "Freaks and Geeks",
+    "Mad Men",
+    "Narcos",
+    "Mindhunter",
+    "Mr. Robot",
+    "Black Mirror",
+    "Heartstopper",
+    "Severance",
+    "It’s Always Sunny in Philadelphia",
+    "The Boys",
+    "Seinfeld",
+    "Peep Show",
+    "The Last of Us",
+    "When They See Us",
+    "The Mandalorian",
+    "Lost",
+    "Line of Duty",
+    "Deadwood",
+    "Mare of Easttown",
+    "Hannibal",
+    "The Bear",
+    "Boardwalk Empire",
+    "Atlanta",
+    "Vikings",
+    "Twin Peaks",
+    "The Shield",
+    "Happy Valley",
+    "True Detective",
+    "The Haunting of Hill House",
+    "The Americans",
+    "Justified",
+]
+
+sorteadas = random.sample(series, 5)
+print("As 5 séries sorteadas foram:")
+identy = 1
+for serie in sorteadas:
+    print(f"{identy}. {serie}")
+    identy += 1
